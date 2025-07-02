@@ -1,4 +1,6 @@
 package com.students.tenant_management_systemt.repository;
 
-public class HouseRepository {
+public interface HouseRepository {
+
+
 }

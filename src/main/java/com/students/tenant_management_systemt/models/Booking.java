@@ -1,10 +1,19 @@
 package com.students.tenant_management_systemt.models;
 
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-
-public class Booking {
-    private Long id;
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity(name = "TB_BOOKING")
+public class Booking extends BaseEntity{
     private Long houseId;
     private String houseName;
     private String tenantName;
