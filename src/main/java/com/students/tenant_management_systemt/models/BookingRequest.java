@@ -8,7 +8,7 @@ import java.time.LocalDate;
 @Getter
 @Setter
 @NoArgsConstructor
-@Entity(name = "TB-HOUSE")
+@Entity(name = "TB_BOOKING_REQUEST")
 @Builder
 public class BookingRequest  extends BaseEntity{
     private Long houseId;
