@@ -9,7 +9,7 @@ import javax.swing.*;
 @Getter
 @Setter
 @NoArgsConstructor
-@Entity(name = "TB-HOUSE")
+@Entity(name = "TB_HOUSE")
 @Builder
 public class House extends BaseEntity{
     private String name;
