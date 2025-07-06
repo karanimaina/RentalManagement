@@ -1,0 +1,3 @@
+spring:
+  application:
+   name: Rental_Management_System
